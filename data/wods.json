@@ -1,0 +1,26 @@
+[
+	{
+		"title": "",
+    "measurement": "4 rounds for time",
+		"description": "<li>Walking lunges 50m</li><li>50 sit ups</li>",
+    "notes": ""
+	},
+  {
+    "title": "",
+    "measurement": "5 rounds for time and reps",
+    "description": "<li>Run 400m</li><li>Max rep push ups</li>",
+    "notes": "Rest 3 minutes between rounds"
+  },
+	{
+		"title": "",
+		"measurement": "For time and reps",
+		"description": "<li>Run 1 mile (for time)</li><li>3 x 3 minute AMRAP of burpees (for reps)</li>",
+		"notes": "Run once / rest 3 minutes between burpee cycles"
+	},
+	{
+		"title": "",
+		"measurement": "4 rounds for time",
+		"description": "<li>Run 400m</li><li>50 air squats</li>",
+		"notes": ""
+	}
+]

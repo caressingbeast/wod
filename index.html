@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>WODs!!!111!!!</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="main-container">
+    <div id="wod-container"></div>
+  </div>
+
+  <script id="workout-tmpl" type="text/x-handlebars-template">
+    <h1>WOD for {{updated_date}}</h1>
+    <div class="wod-info">
+      {{#if title}}<h2>{{title}}</h2>{{/if}}
+      <div class="wod-description">
+        {{#if measurement}}<p>{{measurement}}</p>{{/if}}
+        <ul>{{{description}}}</ul>
+      </div>
+      {{#if notes}}
+        <div class="wod-notes">
+          <p><em>{{notes}}</em></p>
+        </div>
+      {{/if}}
+      <p class="margin-top">
+        <small>
+          Not a fan of this WOD? <a href="#" id="random-btn">Get a new one</a>.<br />
+          <a href="WODs.pdf">(download PDF of entire WOD list)</a>
+        </small>
+      </p>
+    </div>
+  </script>
+
+  <script src="lib/jquery-v2.1.4.js"></script>
+  <script src="lib/handlebars-v3.0.3.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
