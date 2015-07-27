@@ -59,7 +59,6 @@
 			if (override || !_this.currentWOD || _this.isWODStale()) {
 				_this.currentWOD = Math.floor(Math.random() * _this.wodData.length);
 				localStorage.setItem('current_wod', _this.currentWOD);
-				_this.renderWOD();
 			}
 
 			_this.renderWOD();
