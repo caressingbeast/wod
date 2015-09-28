@@ -10,27 +10,32 @@
     <div class="workout"></div>
   </div>
   <div class="footer">
-    <small><a href="https://github.com/caressingbeast/wod">Built</a> with awesomeness (and JavaScript) by <a href="http://brandonburning.com">Brandon Burning</a></small>
+    <small><a href="https://github.com/caressingbeast/wod">Built</a> with awesomeness by <a href="http://brandonburning.com">Brandon Burning</a></small>
   </div>
 
   <script id="workout-tmpl" type="text/x-handlebars-template">
     <h1>WOD for {{updated_date}}</h1>
     <div class="wod-info">
-      {{#if title}}<h2>{{title}}</h2>{{/if}}
       <div class="wod-description">
         {{#if measurement}}<p>{{measurement}}</p>{{/if}}
-        <ul>{{{description}}}</ul>
+        <ul>
+          {{#each exercises}}
+            <li>{{this}}</li>
+          {{/each}}
+        </ul>
       </div>
       {{#if notes}}
         <div class="wod-notes">
-          <p><em>{{notes}}</em></p>
+          <p>
+            {{#each notes}}
+              <em>{{this}}</em><br />
+            {{/each}}
+          </p>
         </div>
       {{/if}}
-      <p class="margin-top">
-        <small>
-          Not a fan of this WOD? <a href="#" id="random-btn">Get a new one</a>.<br />
-          <a href="WODs.pdf">(download PDF of entire WOD list)</a>
-        </small>
+      <p>
+        <button class="button" id="random-btn">Get a new WOD</button><br />
+        <small><a href="WODs.pdf">(download PDF of entire list)</a></small>
       </p>
     </div>
   </script>

@@ -1,37 +1,214 @@
 [
 	{
-		"title": "",
+		"exercises": [
+			"Walking lunges 50m",
+			"50 sit ups"
+		],
     "measurement": "4 rounds for time",
-		"description": "<li>Walking lunges 50m</li><li>50 sit ups</li>",
-    "notes": "",
 		"selected": "false"
 	},
   {
-    "title": "",
+		"exercises": [
+			"Run 400m",
+			"Max rep push ups"
+		],
     "measurement": "5 rounds for time and reps",
-    "description": "<li>Run 400m</li><li>Max rep push ups</li>",
-    "notes": "Rest 3 minutes between rounds",
+    "notes": [
+			"Rest 3 minutes between rounds"
+		],
 		"selected": "false"
   },
 	{
-		"title": "",
+		"exercises": [
+			"Run 1 mile",
+			"3 minute AMRAP of burpees"
+		],
 		"measurement": "For time and reps",
-		"description": "<li>Run 1 mile (for time)</li><li>3 x 3 minute AMRAP of burpees (for reps)</li>",
-		"notes": "Run once / rest 3 minutes between burpee cycles",
+		"notes": [
+			"Run mile for time",
+			"3 rounds of burpees",
+			"Rest 3 minutes between rounds"
+		],
 		"selected": "false"
 	},
 	{
-		"title": "",
+		"exercises": [
+			"Run 400m",
+			"50 air squats"
+		],
 		"measurement": "4 rounds for time",
-		"description": "<li>Run 400m</li><li>50 air squats</li>",
-		"notes": "",
 		"selected": "false"
 	},
 	{
-		"title": "Hot Buns",
+		"exercises": [
+			"Walking lunges 100m",
+			"Run 800m",
+			"100 air squats"
+		],
 		"measurement": "For time",
-		"description": "<li>Walking lunges 100m</li><li>Run 800m</li><li>100 air squats</li>",
-		"notes": "",
+		"selected": "false"
+	},
+	{
+		"exercises": [
+			"Run",
+			"Air squats",
+			"Pull ups",
+			"Push ups",
+			"Sit ups"
+		],
+		"measurement": "8 rounds for reps",
+		"notes": [
+			"20 seconds work and 10 seconds rest per exercise (tabata)"
+		],
+		"selected": "false"
+	},
+	{
+		"exercises": [
+			"Run 800m"
+		],
+		"measurement": "3 rounds for total time",
+		"notes": [
+			"1:1 rest between rounds"
+		],
+		"selected": "false"
+	},
+	{
+		"exercises": [
+			"Run 200m",
+			"10 sit ups",
+			"20 push ups",
+			"30 air squats"
+		],
+		"measurement": "3 rounds for time",
+		"selected": "false"
+	},
+	{
+		"exercises": [
+			"Sit ups",
+			"Box jumps (24\")",
+			"7 minute AMRAP of burpees"
+		],
+		"measurement": "For time and reps",
+		"notes": [
+			"21-18-15-12-9-6-3 reps for sits ups and box jumps",
+			"10 minutes rest",
+			"1 round for burpees"
+		],
+		"selected": "false"
+	},
+	{
+		"exercises": [
+			"24 air squats",
+			"24 push ups",
+			"24 walking lunges",
+			"Run 400m"
+		],
+		"measurement": "4-6 rounds for time",
+		"selected": "false"
+	},
+	{
+		"exercises": [
+			"Run 400m",
+			"40 air squats",
+			"30 sit ups",
+			"20 push ups",
+			"10 pull ups",
+			"Optional: Run 1 mile"
+		],
+		"measurement": "For time",
+		"selected": "false"
+	},
+	{
+		"exercises": [
+			"Run 10m the first minute",
+			"Run 20m the second minute",
+			"Run 30m the third minute",
+			"..."
+		],
+		"notes": [
+			"Continue until unable to finish within time frame"
+		],
+		"selected": "false"
+	},
+	{
+		"exercises": [
+			"100 burpee pull ups"
+		],
+		"measurement": "For time",
+		"selected": "false"
+	},
+	{
+		"exercises": [
+			"Run 200m",
+			"12 burpees"
+		],
+		"measurement": "8 rounds for time",
+		"selected": "false"
+	},
+	{
+		"exercises": [
+			"Run 400m",
+			"Max rep push ups"
+		],
+		"measurement": "5 rounds for time and reps",
+		"notes": [
+			"Rest 3 minutes between rounds"
+		],
+		"selected": "false"
+	},
+	{
+		"exercises": [
+			"Run 200m"
+		],
+		"measurement": "10 rounds for time",
+		"notes": [
+			"Rest 1 minute between rounds"
+		],
+		"selected": "false"
+	},
+	{
+		"exercises": [
+			"100 burpees"
+		],
+		"measurement": "For time",
+		"selected": "false"
+	},
+	{
+		"exercises": [
+			"5 pull ups",
+			"10 push ups",
+			"15 air squats",
+			"Optional: Run 200m"
+		],
+		"measurement": "20 minutes AMRAP",
+		"selected": "false"
+	},
+	{
+		"exercises": [
+			"Run 1 mile",
+			"Run 800m",
+			"Run 400m",
+			"Run 200m"
+		],
+		"measurement": "For time",
+		"notes": [
+			"Rest 2 minutes between runs"
+		],
+		"selected": "false"
+	},
+	{
+		"exercises": [
+			"Run 800m",
+			"25 burpees"
+		],
+		"measurement": "3 rounds for time",
+		"selected": "false"
+	},
+	{
+		"exercises": [
+			"Walking lunges 400m"
+		],
+		"measurement": "For time",
 		"selected": "false"
 	}
 ]

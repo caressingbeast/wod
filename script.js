@@ -69,6 +69,7 @@
 
 					if (_this.previouslySelected < _this.wodData.length) {
 						_this.generateRandomWOD();
+						return;
 					} else {
 						_this.resetWODs();
 					}
@@ -111,7 +112,6 @@
 
 			// render WOD
 			_this.$workout.html(_this.$template(wod));
-			//_this.positionContainer();
 
 			// bind DOM event(s)
 			$('#random-btn', _this.$container)
