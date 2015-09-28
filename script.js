@@ -21,9 +21,11 @@
 			// cache object reference
 			_this = this;
 
+			_this.previouslySelected = 0;
+
 			// cache DOM elements
-			_this.$container = $('#main-container');
-			_this.$workout = $('#wod-container');
+			_this.$container = $('.container');
+			_this.$workout = $('.workout');
 			_this.$template = Handlebars.compile($('#workout-tmpl').html());
 
 			// get WOD data
@@ -34,10 +36,13 @@
 				return;
 			}
 
-			_this.getWODData().done(function (res) {
-				_this.cacheWODData(res);
-				_this.getCurrentWOD();
-			});
+			_this.getWODData()
+				.then(function (res) {
+					_this.cacheWODData(res);
+					_this.getCurrentWOD();
+				}, function (err) {
+					console.log(err);
+				});
 		},
 
 		getWODData: function () {
@@ -58,10 +63,29 @@
 
 			if (override || !_this.currentWOD || _this.isWODStale()) {
 				_this.currentWOD = Math.floor(Math.random() * _this.wodData.length);
+
+				if (_this.wodData[_this.currentWOD].selected) {
+					_this.previouslySelected++;
+
+					if (_this.previouslySelected < _this.wodData.length) {
+						_this.generateRandomWOD();
+					} else {
+						_this.resetWODs();
+					}
+				}
+
 				localStorage.setItem('current_wod', _this.currentWOD);
 			}
 
 			_this.renderWOD();
+		},
+
+		resetWODs: function () {
+			for (var i = 0; i < _this.wodData.length; i++) {
+				_this.wodData[i].selected = false;
+			}
+
+			_this.generateRandomWOD();
 		},
 
 		isWODStale: function () {
@@ -78,6 +102,7 @@
 		renderWOD: function () {
 			var wod = _this.wodData[_this.currentWOD];
 
+			wod.selected = true;
 			wod.updated_date = Helpers.generateDate(new Date());
 
 			// store updated data
@@ -86,7 +111,7 @@
 
 			// render WOD
 			_this.$workout.html(_this.$template(wod));
-			_this.positionContainer();
+			//_this.positionContainer();
 
 			// bind DOM event(s)
 			$('#random-btn', _this.$container)
