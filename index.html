@@ -2,46 +2,38 @@
 <html lang="en">
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>WODs!!!111!!!</title>
-	<link rel="stylesheet" href="style.css">
+	<title>WOD Generator</title>
+	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <div class="container">
+    <h1></h1>
     <div class="workout"></div>
+    <a class="button generate-workout-btn" href="#">Get a new WOD</a>
   </div>
   <div class="footer">
-    <small><a href="https://github.com/caressingbeast/wod">Built</a> with awesomeness by <a href="http://brandonburning.com">Brandon Burning</a></small>
+    <small>made by <a href="https://github.com/caressingbeast/wod">caressingbeast</a></small>
   </div>
 
   <script id="workout-tmpl" type="text/x-handlebars-template">
-    <h1>WOD for {{updated_date}}</h1>
-    <div class="wod-info">
-      <div class="wod-description">
-        {{#if measurement}}<p>{{measurement}}</p>{{/if}}
-        <ul>
-          {{#each exercises}}
-            <li>{{this}}</li>
-          {{/each}}
-        </ul>
-      </div>
-      {{#if notes}}
-        <div class="wod-notes">
-          <p>
-            {{#each notes}}
-              <em>{{this}}</em><br />
-            {{/each}}
-          </p>
-        </div>
-      {{/if}}
+    {{#if name}}<h2>{{name}}</h2>{{/if}}
+    {{#if measurement}}<p><em>{{measurement}}</em></p>{{/if}}
+    <p>
+      {{#each workout}}
+        <span>{{{this}}}</span>
+      {{/each}}
+    </p>
+    {{#if notes}}
       <p>
-        <button class="button" id="random-btn">Get a new WOD</button><br />
-        <small><a href="WODs.pdf">(download PDF of entire list)</a></small>
+        {{#each notes}}
+          <span>{{this}}</span>
+        {{/each}}
       </p>
-    </div>
+    {{/if}}
   </script>
 
-  <script src="lib/jquery-v2.1.4.js"></script>
-  <script src="lib/handlebars-v3.0.3.js"></script>
-  <script src="script.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.min.js"></script>
+  <script src="js/script.js"></script>
 </body>
 </html>
