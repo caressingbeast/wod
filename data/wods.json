@@ -95,5 +95,82 @@
 			"24 walking lunges",
 			"Run 400m"
 		]
+	},
+	{
+		"measurement": "For time",
+		"name": "CrossFit Baseline",
+		"notes": [
+			"Optional: Run 1 mile (for time)"
+		],
+		"workout": [
+			"Run 400m",
+			"40 air squats",
+			"30 sit ups",
+			"20 push ups",
+			"10 pull ups"
+		]
+	},
+	{
+		"name": "Death by 10m",
+		"notes": [
+			"Continue until unable to finish within timeframe"
+		],
+		"workout": [
+			"Run 10m the first minute",
+			"Run 20m the second minute",
+			"Run 30m the third minute",
+			"..."
+		]
+	},
+	{
+		"measurement": "For time",
+		"name": "GI Jane",
+		"workout": [
+			"100 burpee pull ups"
+		]
+	},
+	{
+		"measurement": "8 rounds for time",
+		"workout": [
+			"Run 200m",
+			"12 burpees"
+		]
+	},
+	{
+		"measurement": "5 rounds, for time and reps",
+		"notes": [
+			"Rest 3 minutes between rounds"
+		],
+		"workout": [
+			"Run 400m",
+			"Max rep push ups"
+		]
+	},
+	{
+		"measurement": "10 rounds, for total time (excluding rest)",
+		"notes": [
+			"Rest 1 minute between rounds"
+		],
+		"workout": [
+			"Run 200m"
+		]
+	},
+	{
+		"measurement": "For time",
+		"workout": [
+			"100 burpees"
+		]
+	},
+	{
+		"measurement": "20 minutes AMRAP",
+		"name": "Cindy/Running Cindy",
+		"notes": [
+			"Optional: Run 200m after air squats"
+		],
+		"workout": [
+			"5 pull ups",
+			"10 push ups",
+			"15 air squats"
+		]
 	}
 ]
