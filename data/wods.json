@@ -111,6 +111,7 @@
 		]
 	},
 	{
+		"measurement": "Last minute able to finish",
 		"name": "Death by 10m",
 		"notes": [
 			"Continue until unable to finish within timeframe"
@@ -137,17 +138,7 @@
 		]
 	},
 	{
-		"measurement": "5 rounds, for time and reps",
-		"notes": [
-			"Rest 3 minutes between rounds"
-		],
-		"workout": [
-			"Run 400m",
-			"Max rep push ups"
-		]
-	},
-	{
-		"measurement": "10 rounds, for total time (excluding rest)",
+		"measurement": "10 rounds for total time (excluding rest)",
 		"notes": [
 			"Rest 1 minute between rounds"
 		],
@@ -171,6 +162,214 @@
 			"5 pull ups",
 			"10 push ups",
 			"15 air squats"
+		]
+	},
+	{
+		"measurement": "For total time (excluding rest)",
+		"notes": [
+			"Rest 2 minutes between runs"
+		],
+		"workout": [
+			"Run 1 mile",
+			"Run 800m",
+			"Run 400m",
+			"Run 200m"
+		]
+	},
+	{
+		"measurement": "3 rounds for time",
+		"workout": [
+			"Run 800m",
+			"25 burpees"
+		]
+	},
+	{
+		"measurement": "For time",
+		"workout": [
+			"Walking lunges 400m"
+		]
+	},
+	{
+		"measurement": "4 rounds for time",
+		"notes": [
+			"1:1 rest"
+		],
+		"workout": [
+			"Run 800m"
+		]
+	},
+	{
+		"measurement": "10 rounds for time",
+		"workout": [
+			"7 burpees",
+			"7 knees to elbows"
+		]
+	},
+	{
+		"measurement": "For time",
+		"workout": [
+			"Run 5k"
+		]
+	},
+	{
+		"measurement": "Total reps for all intervals",
+		"name": "Tabata Something Else",
+		"notes": [
+			"20 seconds work / 10 seconds rest / 8 intervals"
+		],
+		"workout": [
+			"Pull ups",
+			"Push ups",
+			"Sit ups",
+			"Air squats"
+		]
+	},
+	{
+		"measurement": "12 minutes AMRAP",
+		"name": "Rounds of Cindy",
+		"workout": [
+			"5 pull ups",
+			"10 push ups",
+			"15 air squats"
+		]
+	},
+	{
+		"measurement": "6 rounds for time",
+		"notes": [
+			"Perform the lunges and then the specified number of reps for each additional exercise"
+		],
+		"workout": [
+			"Walking lunges 100ft",
+			"21-18-15-9-6",
+			"Pull ups",
+			"Sit ups"
+		]
+	},
+	{
+		"measurement": "3 rounds for total reps",
+		"notes": [
+			"1 minute per station"
+		],
+		"workout": [
+			"Pull ups",
+			"Push ups",
+			"Sit ups",
+			"Air squats",
+			"Rest"
+		]
+	},
+	{
+		"measurement": "For time",
+		"workout": [
+			"Run 800m",
+			"50 burpees"
+		]
+	},
+	{
+		"measurement": "For time",
+		"workout": [
+			"10-9-8-7-6-5-4-3-2-1",
+			"Pull ups",
+			"Box jumps (24\")",
+			"Sit ups"
+		]
+	},
+	{
+		"measurement": "For time",
+		"name": "Run + Half Angie",
+		"workout": [
+			"Run 800m",
+			"50 pull ups",
+			"50 push ups",
+			"50 air squats",
+			"50 sit ups"
+		]
+	},
+	{
+		"measurement": "Last minute able to finish",
+		"name": "Death by Burpees",
+		"notes": [
+			"Continue until unable to finish within timeframe"
+		],
+		"workout": [
+			"1 burpee the first minute",
+			"2 burpees the second minute",
+			"3 burpees the third minute",
+			"..."
+		]
+	},
+	{
+		"measurement": "For time",
+		"workout": [
+			"21-15-9",
+			"Burpees",
+			"Box jump overs (24\")"
+		]
+	},
+	{
+		"measurement": "8 rounds for time",
+		"workout": [
+			"Run 100m",
+			"8 burpees"
+		]
+	},
+	{
+		"measurement": "For time",
+		"name": "Invisible Fran",
+		"workout": [
+			"21-15-9",
+			"Air squats",
+			"Push ups"
+		]
+	},
+	{
+		"measurement": "2 rounds for time",
+		"workout": [
+			"Run 800m",
+			"50 burpee box jumps (24\")"
+		]
+	},
+	{
+		"measurement": "4 rounds for time",
+		"workout": [
+			"Run 80m",
+			"Do 1 burpee for every second of run"
+		]
+	},
+	{
+		"measurement": "10 minutes AMRAP",
+		"name": "Mini-Nicole",
+		"workout": [
+			"Run 200m",
+			"15 pull ups"
+		]
+	},
+	{
+		"measurement": "For time",
+		"workout": [
+			"30-20-10",
+			"Burpees",
+			"Box jumps (24\")",
+			"Sit ups"
+		]
+	},
+	{
+		"measurement": "12 minutes AMRAP",
+		"name": "Cindy's Burps",
+		"workout": [
+			"5 burpees",
+			"10 push ups",
+			"15 air squats"
+		]
+	},
+	{
+		"measurement": "15 minutes AMRAP",
+		"name": "Barbara-ish",
+		"workout": [
+			"10 pull ups",
+			"15 push ups",
+			"20 sit ups",
+			"25 air squats"
 		]
 	}
 ]
